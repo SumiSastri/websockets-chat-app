@@ -1,5 +1,7 @@
 <img src="/websocketsApp/assets/images/websocketsApp.png" alt="websocketsApp" height="250"/>
 
+Acess folder - `npm run start`
+
 ## Scaffolding
 
 - Initialising cloned files `npm -init -y`
