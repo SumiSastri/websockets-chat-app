@@ -2,11 +2,11 @@
   "name": "websocketsapp",
   "version": "1.0.0",
   "description": "",
-  "main": "./server/index.js",
+  "main": "./index.js",
   "scripts": {
-    "start": "nodemon ./server/index.js --exec babel-node -e js",
-    "debug": "DEBUG=express:* nodemon ./server/index.js --exec babel-node -e js",
-    "test": "DEBUG=* nodemon ./server/index.js  --exec babel-node -e js"
+    "start": "nodemon ./index.js --exec babel-node -e js",
+    "debug": "DEBUG=express:* nodemon ./index.js --exec babel-node -e js",
+    "test": "DEBUG=* nodemon ./index.js  --exec babel-node -e js"
   },
   "keywords": [],
   "author": "",

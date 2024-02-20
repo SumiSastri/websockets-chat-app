@@ -13,6 +13,7 @@ Server
 - Node v20.6.0
 - nvm v0.36.0
 - Install dependencies - cd into server folder and `npm -install --y`
+- Run `npm i --legacy-peers-deps` (update peer-dependencies if you have a different version of node)
 
 
 Client-Server check
