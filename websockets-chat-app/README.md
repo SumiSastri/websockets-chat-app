@@ -1,5 +1,5 @@
 # Repo Access
-<img src="jam-stack-chat-app/assets/images/jam-stack-chat-app.png" alt="jam-stack-chat-app" height="250"/>
+<img src="websockets-chat-app/assets/images/jam-stack-chat-app.png" alt="jam-stack-chat-app" height="250"/>
 
 - [Clone Repo](https://github.com/SumiSastri/websockets-chat-app.git)
 
@@ -22,7 +22,7 @@ Client side go to
 
 You should see messages in your console
 
-<img src="jam-stack-chat-app/assets/images/node-console-logs.png" alt="node-console-logs" height="250"/>
+<img src="websockets/assets/images/node-console-logs.png" alt="node-console-logs" height="250"/>
 
 __Debugging__ 
 
