@@ -20,8 +20,7 @@ app.use(helmet.referrerPolicy());
 app.use(helmet.xssFilter());
 
 ```
-
-In your server folder npm install helmet and use it in Express like any other middleware with Express app.use() method after you import the library.
+Experiments with this package show that the chat app stops functioning due to the enhanced security measures
 
 - [Helmet Docs](helmetjs.github.io)
 
