@@ -130,6 +130,13 @@ Authorisation has different protocols where a user's information is matched with
 
 
 
+
+
+
+Everything works by events in socket. There's this event of connection, the call back determines what happens on the connection event. For the moment we are just logging the event to console to check that the call back is working. With the message event the call back is to send a message. So what we'll do is send this data.
+
+Basically, once someone is connected we'll send a message to that person so then we're going to wait for another event. So, there's going to be another event being emitted from the client, in the index.html Whatever data we pass from that other event in the client side file `index.html`, then we'll console log that event.
+
 For this process to happen `new WebSocket(url)`
 
 

@@ -34,7 +34,11 @@ const server = http.listen(5000, () => {
 });
 ```
 
-4. Use the socket.io method with an event listener in server.js, the method takes the event "connection" as the first argument, this opens the socket, and we can check if a user is connected. The next method `socket.emit()` actually relays the message as an object, as the socket is on, we continue with the method `socket.on()` which listens to the next event, in this we pass the data that is coming back from the client-side.
+3. Library methods on the server
+
+- the `io.on()` method checks the connection, the first argument in the callback, the second argument, socket triggers the socket opening 
+- the next method `socket.emit()` actually relays server messages as an object to the client
+- the method `socket.on()` listens to the next event which is the message received from the client
 
 ```
 io.on('connection', (socket) => {
@@ -46,13 +50,11 @@ console.log(data);
 })
 ```
 
-Everything works by events in socket. There's this event of connection, the call back determines what happens on the connection event. For the moment we are just logging the event to console to check that the call back is working. With the message event the call back is to send a message. So what we'll do is send this data.
-
-Basically, once someone is connected we'll send a message to that person so then we're going to wait for another event. So, there's going to be another event being emitted from the client, in the index.html Whatever data we pass from that other event in the client side file `index.html`, then we'll console log that event.
-
-5. Connect backend to the front end in `index.html`
+3. Library methods connecting clients to servers via the root `index.html`
 
 In the HTML file, after the body tags, add 2 script files. The second script tag goes above the jQuery, the first script tag is the front-end CDN to sockets.
+
+The same methods we have seen server-side are used in the script tags client side.
 
 ```
 <script src="/socket.io/socket.io.js"></script>
@@ -67,25 +69,14 @@ In the HTML file, after the body tags, add 2 script files. The second script tag
   </script>
 ```
 
-In the front end console and the back end console you will see the responses.
+We are logging the both the front end and backend to check client-server request-response cycles.
 
 **NOTE separation of concerns does not work, if you have a separate HTML and JavaScript files**
 
-```
-const socket = io.connect("http://localhost:5000");
-socket.on("message", (data) => {
-  console.log(data);
-  socket.emit("another event", {
-    userReply: "The socket test in progress",
-  });
-});
-```
+6. Debugging - Sometimes when you actually add socket methods the front end does not find where the sockets are stored in the file system
 
-6. Connecting front-end sockets to the backend
-   Debugging:
-   Stackoverflow[https://stackoverflow.com/questions/19426882/node-js-socket-io-socket-io-js-not-found]
+  - [Stackoverflow](https://stackoverflow.com/questions/19426882/node-js-socket-io-socket-io-js-not-found)
 
-Sometimes 1-5 work well but when you actually add socket methods the front end does not find where the sockets are stored in the file system
 
 METHOD 1:
 Steps to debug

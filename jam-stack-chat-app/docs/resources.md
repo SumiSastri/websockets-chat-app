@@ -3,3 +3,5 @@
 - [Emit cheatsheet](https://socket.io/docs/emit-cheatsheet/)
 - [Server API documentation](https://socket.io/docs/server-api/)
 - [Client API documentation](https://socket.io/docs/client-api/)
+- [Debugging the socket not found problem - Stackoverflow](https://stackoverflow.com/questions/19426882/node-js-socket-io-socket-io-js-not-found)
+- [The CORs challenge]
