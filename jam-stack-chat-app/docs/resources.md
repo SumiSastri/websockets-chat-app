@@ -1,0 +1,5 @@
+- [Hatchful Logo Maker](https://www.brandcrowd.com/logo-maker)
+- [Express Server docs](https://expressjs.com/en/starter/hello-world.html)
+- [Emit cheatsheet](https://socket.io/docs/emit-cheatsheet/)
+- [Server API documentation](https://socket.io/docs/server-api/)
+- [Client API documentation](https://socket.io/docs/client-api/)
