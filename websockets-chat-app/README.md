@@ -1,5 +1,5 @@
 # Repo Access
-<img src="https://github.com/SumiSastri/websockets-chat-app/blob/3baa5f28577d45919c1dd30ed5ef30d601127ba5/websockets-chat-app/assets/images/jam-stack-chat-app.png" alt="jam-stack-chat-app" height="250"/>
+<img src="https://github.com/SumiSastri/websockets-chat-app/blob/0b70584d734cd5e7ff6db43435f7a724978a9b99/websockets-chat-app/assets/images/web-sockets-chat-app.png" alt="websockets-chat-app" height="250"/>
 
 - [Clone Repo](https://github.com/SumiSastri/websockets-chat-app.git)
 
@@ -20,9 +20,9 @@ Client side go to
 
 - Test drive the app
 
-You should see messages in your console
+You should see messages in your console: An example from a demo:
 
-<img src="https://github.com/SumiSastri/websockets-chat-app/blob/3baa5f28577d45919c1dd30ed5ef30d601127ba5/websockets-chat-app/assets/images/node-console-logs.png" alt="node-console-logs" height="250"/>
+<img src="https://github.com/SumiSastri/websockets-chat-app/blob/3baa5f28577d45919c1dd30ed5ef30d601127ba5/websockets-chat-app/assets/images/node-console-logs.png" alt="node-console-logs" height="150"/>
 
 __Debugging__ 
 
