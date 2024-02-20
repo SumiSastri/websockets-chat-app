@@ -22,7 +22,7 @@ Client side go to
 
 You should see messages in your console
 
-<img src="websockets/assets/images/node-console-logs.png" alt="node-console-logs" height="250"/>
+<img src="websockets-chat-app/assets/images/node-console-logs.png" alt="node-console-logs" height="250"/>
 
 __Debugging__ 
 
