@@ -5,3 +5,6 @@
 - [Client API documentation](https://socket.io/docs/client-api/)
 - [Debugging the socket not found problem - Stackoverflow](https://stackoverflow.com/questions/19426882/node-js-socket-io-socket-io-js-not-found)
 - [The CORs challenge]
+- [My ExpressJS tutorial on GitHub](https://github.com/SumiSastri/expressJs-server-side-security)
+
+- [Helmet Docs](helmetjs.github.io)
